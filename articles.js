@@ -1,4 +1,5 @@
-export const articles = [
+// articles.js
+window.articles = [
   {
     imgSrc: 'https://securityaffairs.com/wp-content/uploads/2021/06/Italy.jpg',
     articleUrl: 'https://example.com/article1',

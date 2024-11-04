@@ -1,19 +1,16 @@
 <!-- pages/page1.html -->
 
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page1</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="../style.css" />
-
-    <script src="../components/header.js" type="module"></script>
-    <script src="../components/navbar.js" type="module"></script>
-    <script src="../components/searchForm.js" type="module"></script>
-    <script src="../components/createArticlePanel.js" type="module"></script>
-    <script src="./page1.js" type="module"></script>
+    <script src="../components/header.js"></script>
+    <script src="../components/navbar.js"></script>
+    <script src="../components/searchForm.js"></script>
   </head>
   <body>
     <div class="search-form-container">
@@ -22,10 +19,15 @@
         <button type="submit" id="searchButton">検索</button>
       </form>
     </div>
+
     <main>
       <h1>Page1</h1>
       <p>page1の説明</p>
       <div class="article-grid" id="articleGrid"></div>
     </main>
+
+    <script src="../articles.js"></script>
+    <script src="../components/createArticlePanel.js"></script>
+    <script src="../components/displayArticles.js"></script>
   </body>
 </html>

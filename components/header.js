@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const headerHTML = `
     <header>
         <h1>
-        <a href='../index.html'>タイトル</a>
+        <a href='file:///C:/workspace/HearingPage/index.html'>タイトル</a>
         </h1>
         <nav id ='navbar'></nav>
     </header>

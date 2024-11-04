@@ -1,6 +1,5 @@
-// components/createArticlePanel.js
-
-export function createArticlePanel(article) {
+// createArticlePanel.js
+window.createArticlePanel = function (article) {
   const articlePanel = document.createElement('div');
   articlePanel.classList.add('article-panel');
 
@@ -28,4 +27,4 @@ export function createArticlePanel(article) {
   articlePanel.appendChild(link);
 
   return articlePanel;
-}
+};

@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const navbar = document.getElementById('navbar');
   const links = [
     {
-      href: '../pages/page1.html',
+      href: 'file:///C:/workspace/HearingPage/pages/page1.html',
       text: 'Page1',
     },
     {

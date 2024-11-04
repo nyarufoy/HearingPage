@@ -1,6 +1,3 @@
-import { articles } from '../articles.js';
-import { createArticlePanel } from '../components/createArticlePanel.js';
-
 document.addEventListener('DOMContentLoaded', () => {
   const searchForm = document.getElementById('searchForm');
   const searchInput = document.getElementById('searchInput');
@@ -21,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     articleGrid.innerHTML = ''; // 既存のコンテンツをクリア
 
     articlesToDisplay.forEach((article) => {
-      const articlePanel = createArticlePanel(article); // ここで createArticlePanel を使用
+      const articlePanel = createArticlePanel(article);
       articleGrid.appendChild(articlePanel);
     });
   }
